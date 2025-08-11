@@ -167,10 +167,12 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 -- Set indentation preferences (use spaces instead of tabs)
-vim.o.expandtab = true      -- Use spaces instead of tabs
-vim.o.tabstop = 2           -- Number of visual spaces per tab
-vim.o.shiftwidth = 2        -- Number of spaces to use for each step of (auto)indent
-vim.o.softtabstop = 2       -- Number of spaces that a tab counts for while performing editing operations
+vim.o.expandtab = true -- Use spaces instead of tabs
+vim.o.tabstop = 2 -- Number of visual spaces per tab
+vim.o.shiftwidth = 2 -- Number of spaces to use for each step of (auto)indent
+vim.o.softtabstop = 2 -- Number of spaces that a tab counts for while performing editing operations
+
+vim.o.swapfile = false
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
